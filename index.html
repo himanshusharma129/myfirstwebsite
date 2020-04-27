@@ -1,50 +1,19 @@
-<<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Home  Page</title>
-        <meta name="description" content="This contains nothing">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- <link rel="stylesheet" href=""> -->
-    </head>
-    <body>
-        <table cellspacing = "20" ,align = "center">
-            <tr>
-                <td><img src ="deadp10.jpg" alt="Himanshu Profile Pic">
-                </td>
-                <td><h1>Himanshu Sharma</h1>
-                    <p>
-                        <em>Data Science aspirant </em>I am a student of Engineering
-                    </p>
-                </td>
-            </tr>
-        </table>
-        
-        <p>I am an android and python developer</p>
-        <hr>
-        <h3>Skills and Acheivements</h3>
-        <ul> 
-            <li>  Android </li>
-            <li>Java</li>
-            <li>python</li>
-            <li><a href="https://devdocs.io/html/attributes#list-attribute">HTML</a></li>
-            href can be used to open html files
-        </ul>
-        <hr>
-        <h3>Projects</h3>
-        <ol type = "i">
-            <li>Crypto Cipher</li>
-            <li>Sparking</li>
-            <li>FeCommerce</li>
-            <li>WashKaro</li>
-        </ol>
-
-
-        <a href = "contact.html">Contact Me</a>
-        <script src="" async defer></script>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barcode Scanner</title>
+</head>
+<script>
+    function openScanner() {
+    document.getElementById("tst").style.color ="red";
+      Android.barCodescanner();
+      
+    }
+    </script>
+<body>
+    <button onclick="openScanner()">Open Scanner</button>
+    <p id="tst">Hello</p>
+</body>
 </html>
