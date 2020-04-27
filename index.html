@@ -8,12 +8,18 @@
 <script>
     function openScanner() {
     document.getElementById("tst").style.color ="red";
-    Android.scanBarcode();
+    // Android.scanBarcode();
+    
       
     }
+
+    function gotCode(val){
+        document.getElementById("banner").innerHTML=val;
+    } 
     </script>
 <body>
     <button onclick="openScanner()">Open Scanner</button>
     <p id="tst">Hello</p>
+    <H4 id ="banner">The Barcode scan result </H4>
 </body>
 </html>
