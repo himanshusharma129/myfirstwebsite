@@ -5,6 +5,7 @@ id = ed89291a-01fb-454f-82f6-e75e02e01325
 [relations.collections]
 rootDirectory = postman/collections
 files[] = {"id":"23346513-f1181b90-c0e0-41d4-b779-0e3dacf9d2c6","path":"Esiting.json","metaData":{}}
+files[] = {"id":"23346513-501b1e17-f25c-47f0-85d1-8b7cfd631850","path":"LunchBox Collection.json","metaData":{}}
 
 [relations.collections.metaData]
 
